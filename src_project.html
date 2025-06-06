@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="styles.css"> <script src="script.js" defer></script> </head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the main content of the home page. Welcome!</p>
+            <img src="images/banner.jpg" alt="Website Banner" width="800" height="400">
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <article>
+                <h3>Our Mission</h3>
+                <p>We are dedicated to providing high-quality solutions to our clients.</p>
+            </article>
+            <article>
+                <h3>Our Team</h3>
+                <ul>
+                    <li>John Doe - CEO</li>
+                    <li>Jane Smith - CTO</li>
+                    <li>Peter Jones - Lead Developer</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div>
+                <h3>Web Development</h3>
+                <p>We build responsive and modern websites.</p>
+            </div>
+            <div>
+                <h3>Mobile App Development</h3>
+                <p>Creating intuitive mobile applications for iOS and Android.</p>
+            </div>
+            <div>
+                <h3>SEO Optimization</h3>
+                <p>Improving your website's visibility on search engines.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="50"></textarea><br><br>
+
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Subscribe to newsletter</label><br><br>
+
+                    <label for="prefered_contact">Preferred Contact Method:</label><br>
+                    <input type="radio" id="email_contact" name="prefered_contact" value="email">
+                    <label for="email_contact">Email</label><br>
+                    <input type="radio" id="phone_contact" name="prefered_contact" value="phone">
+                    <label for="phone_contact">Phone</label><br><br>
+
+                    <label for="how_heard">How did you hear about us?</label><br>
+                    <select id="how_heard" name="how_heard">
+                        <option value="">--Please choose an option--</option>
+                        <option value="search_engine">Search Engine</option>
+                        <option value="social_media">Social Media</option>
+                        <option value="friend">Friend/Referral</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset Form">
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <figure>
+                <img src="images/pic1.jpg" alt="Description of pic 1" width="300" height="200">
+                <figcaption>Beautiful scenery.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic2.jpg" alt="Description of pic 2" width="300" height="200">
+                <figcaption>Modern architecture.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic3.jpg" alt="Description of pic 3" width="300" height="200">
+                <figcaption>Creative design.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic4.jpg" alt="Description of pic 4" width="300" height="200">
+                <figcaption>City skyline.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic5.jpg" alt="Description of pic 5" width="300" height="200">
+                <figcaption>Nature's beauty.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic6.jpg" alt="Description of pic 6" width="300" height="200">
+                <figcaption>Abstract art.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic7.jpg" alt="Description of pic 7" width="300" height="200">
+                <figcaption>Technology in hand.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic8.jpg" alt="Description of pic 8" width="300" height="200">
+                <figcaption>Delicious food.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic9.jpg" alt="Description of pic 9" width="300" height="200">
+                <figcaption>Travel adventures.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic10.jpg" alt="Description of pic 10" width="300" height="200">
+                <figcaption>Sporting event.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic11.jpg" alt="Description of pic 11" width="300" height="200">
+                <figcaption>Musical harmony.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic12.jpg" alt="Description of pic 12" width="300" height="200">
+                <figcaption>Artistic expression.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic13.jpg" alt="Description of pic 13" width="300" height="200">
+                <figcaption>Relaxing moments.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic14.jpg" alt="Description of pic 14" width="300" height="200">
+                <figcaption>Wildlife photography.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pic15.jpg" alt="Description of pic 15" width="300" height="200">
+                <figcaption>Historical landmark.</figcaption>
+            </figure>
+        </section>
+
+        <section id="articles">
+            <h2>Latest Articles</h2>
+            <article>
+                <h3><a href="#">The Future of Web Design</a></h3>
+                <p>Published on: <time datetime="2025-06-05">June 5, 2025</time> by Admin</p>
+                <p>Exploring new trends and technologies in web development.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla facilisi. Donec suscipit, lectus ac sollicitudin facilisis, erat quam auctor sapien, eu feugiat elit enim a elit. Phasellus eu mi sed nisl volutpat sagittis. Suspendisse potenti.</p>
+                <p>Fusce tincidunt, tellus eget condimentum rhoncus, orci lacus vulputate leo, vitae vestibulum orci erat eu erat. Nulla facilisi. Aenean nec justo eu nunc aliquet eleifend. Curabitur vel lectus eu velit aliquet lacinia. Sed interdum.</p>
+                <a href="#">Read More...</a>
+            </article>
+            <article>
+                <h3><a href="#">Mastering CSS Grid Layout</a></h3>
+                <p>Published on: <time datetime="2025-06-01">June 1, 2025</time> by Developer</p>
+                <p>A comprehensive guide to building complex layouts with CSS Grid.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla facilisi. Donec suscipit, lectus ac sollicitudin facilisis, erat quam auctor sapien, eu feugiat elit enim a elit. Phasellus eu mi sed nisl volutpat sagittis. Suspendisse potenti.</p>
+                <p>Fusce tincidunt, tellus eget condimentum rhoncus, orci lacus vulputate leo, vitae vestibulum orci erat eu erat. Nulla facilisi. Aenean nec justo eu nunc aliquet eleifend. Curabitur vel lectus eu velit aliquet lacinia. Sed interdum.</p>
+                <a href="#">Read More...</a>
+            </article>
+            <article>
+                <h3><a href="#">Introduction to JavaScript</a></h3>
+                <p>Published on: <time datetime="2025-05-28">May 28, 2025</time> by Coder</p>
+                <p>Get started with the basics of JavaScript for interactive web experiences.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla facilisi. Donec suscipit, lectus ac sollicitudin facilisis, erat quam auctor sapien, eu feugiat elit enim a elit. Phasellus eu mi sed nisl volutpat sagittis. Suspendisse potenti.</p>
+                <p>Fusce tincidunt, tellus eget condimentum rhoncus, orci lacus vulputate leo, vitae vestibulum orci erat eu erat. Nulla facilisi. Aenean nec justo eu nunc aliquet eleifend. Curabitur vel lectus eu velit aliquet lacinia. Sed interdum.</p>
+                <a href="#">Read More...</a>
+            </article>
+            <article>
+                <h3><a href="#">Understanding SEO Fundamentals</a></h3>
+                <p>Published on: <time datetime="2025-05-20">May 20, 2025</time> by Marketing Pro</p>
+                <p>Key strategies to improve your website's search engine ranking.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla facilisi. Donec suscipit, lectus ac sollicitudin facilisis, erat quam auctor sapien, eu feugiat elit enim a elit. Phasellus eu mi sed nisl volutpat sagittis. Suspendisse potenti.</p>
+                <p>Fusce tincidunt, tellus eget condimentum rhoncus, orci lacus vulputate leo, vitae vestibulum orci erat eu erat. Nulla facilisi. Aenean nec justo eu nunc aliquet eleifend. Curabitur vel lectus eu velit aliquet lacinia. Sed interdum.</p>
+                <a href="#">Read More...</a>
+            </article>
+            <article>
+                <h3><a href="#">Responsive Web Design Principles</a></h3>
+                <p>Published on: <time datetime="2025-05-15">May 15, 2025</time> by Designer</p>
+                <p>Designing websites that adapt seamlessly to all devices.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla facilisi. Donec suscipit, lectus ac sollicitudin facilisis, erat quam auctor sapien, eu feugiat elit enim a elit. Phasellus eu mi sed nisl volutpat sagittis. Suspendisse potenti.</p>
+                <p>Fusce tincidunt, tellus eget condimentum rhoncus, orci lacus vulputate leo, vitae vestibulum orci erat eu erat. Nulla facilisi. Aenean nec justo eu nunc aliquet eleifend. Curabitur vel lectus eu velit aliquet lacinia. Sed interdum.</p>
+                <a href="#">Read More...</a>
+            </article>
+        </section>
+
+        <section id="videos">
+            <h2>Our Videos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>A sample video demonstrating our services.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/another_video_id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Another video about our team.</p>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>What are your business hours?</summary>
+                <p>Our office is open from 9 AM to 5 PM, Monday to Friday.</p>
+            </details>
+            <details>
+                <summary>How can I get a quote?</summary>
+                <p>Please fill out our contact form or call us directly.</p>
+            </details>
+            <details>
+                <summary>Do you offer custom solutions?</summary>
+                <p>Yes, we tailor our services to meet your specific needs.</p>
+            </details>
+            <details>
+                <summary>What payment methods do you accept?</summary>
+                <p>We accept major credit cards, bank transfers, and PayPal.</p>
+            </details>
+            <details>
+                <summary>Where are you located?</summary>
+                <p>Our main office is located in the heart of the city.</p>
+            </details>
+            <details>
+                <summary>How long does a typical project take?</summary>
+                <p>Project timelines vary depending on complexity. We'll provide an estimated timeline after assessing your requirements.</p>
+            </details>
+            <details>
+                <summary>Do you provide ongoing support?</summary>
+                <p>Yes, we offer various support packages to ensure your continued success.</p>
+            </details>
+            <details>
+                <summary>Can I see your portfolio?</summary>
+                <p>Absolutely! Visit our 'Gallery' section for examples of our work.</p>
+            </details>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <blockquote>
+                <p>"Working with this team was an absolute pleasure. They delivered beyond our expectations!"</p>
+                <footer>- Client A</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Their expertise in web development is truly impressive. Highly recommended."</p>
+                <footer>- Client B</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Excellent communication and a fantastic end product. We couldn't be happier."</p>
+                <footer>- Client C</footer>
+            </blockquote>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Website. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Sitemap</a>
+        </p>
+        <address>
+            Email: <a href="mailto:info@example.com">info@example.com</a><br>
+            Phone: <a href="tel:+1234567890">+123-456-7890</a><br>
+            Address: 123 Main St, Anytown, USA
+        </address>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
